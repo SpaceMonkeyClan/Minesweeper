@@ -4615,7 +4615,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = md.rogy.TCAminesweeper;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SpaceMonkeyLabs.Minesweeper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
@@ -4639,7 +4639,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = md.rogy.TCAminesweeper;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SpaceMonkeyLabs.Minesweeper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
