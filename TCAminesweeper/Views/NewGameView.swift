@@ -2,7 +2,7 @@
 //  NewGameView.swift
 //  TCAminesweeper
 //
-//  Created by Igor Bidiniuc on 08/03/2021.
+//  Created by Rene Dena on 08/03/2021.
 //
 
 import SwiftUI

@@ -2,7 +2,7 @@
 //  TCAminesweeperApp.swift
 //  TCAminesweeper
 //
-//  Created by Igor Bidiniuc on 03/03/2021.
+//  Created by Rene Dena on 03/03/2021.
 //
 
 import SwiftUI

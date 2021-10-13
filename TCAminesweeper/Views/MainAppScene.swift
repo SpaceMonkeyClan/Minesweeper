@@ -2,7 +2,7 @@
 //  MainAppScene.swift
 //  TCAminesweeper
 //
-//  Created by Igor Bidiniuc on 27/03/2021.
+//  Created by Rene Dena on 27/03/2021.
 //
 
 import SwiftUI

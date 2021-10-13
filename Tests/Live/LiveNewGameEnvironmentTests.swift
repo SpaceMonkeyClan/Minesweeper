@@ -2,7 +2,7 @@
 //  LiveNewGameEnvironmentTests.swift
 //  TCAminesweeperTests
 //
-//  Created by Igor Bidiniuc on 18/03/2021.
+//  Created by Rene Dena on 18/03/2021.
 //
 
 import XCTest

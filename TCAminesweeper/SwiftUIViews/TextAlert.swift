@@ -2,7 +2,7 @@
 //  TextAlert.swift
 //  TCAminesweeper
 //
-//  Created by Igor Bidiniuc on 09/03/2021.
+//  Created by Rene Dena on 09/03/2021.
 //
 
 import SwiftUI

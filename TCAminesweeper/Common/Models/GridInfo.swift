@@ -2,7 +2,7 @@
 //  GridInfo.swift
 //  TCAminesweeper
 //
-//  Created by Igor Bidiniuc on 19/03/2021.
+//  Created by Rene Dena on 19/03/2021.
 //
 
 import Foundation

@@ -2,7 +2,7 @@
 //  LiveSettingsEnvironment.swift
 //  TCAminesweeper
 //
-//  Created by Igor Bidiniuc on 10/03/2021.
+//  Created by Rene Dena on 10/03/2021.
 //
 
 import Foundation

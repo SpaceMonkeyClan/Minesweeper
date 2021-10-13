@@ -2,7 +2,7 @@
 //  NewGameCoreTests.swift
 //  NewGameCoreTests
 //
-//  Created by Igor Bidiniuc on 15/03/2021.
+//  Created by Rene Dena on 15/03/2021.
 //
 
 import XCTest

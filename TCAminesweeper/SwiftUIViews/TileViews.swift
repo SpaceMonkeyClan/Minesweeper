@@ -2,7 +2,7 @@
 //  TileViews.swift
 //  TCAminesweeper
 //
-//  Created by Igor Bidiniuc on 04/03/2021.
+//  Created byRene Dena on 04/03/2021.
 //
 
 import SwiftUI

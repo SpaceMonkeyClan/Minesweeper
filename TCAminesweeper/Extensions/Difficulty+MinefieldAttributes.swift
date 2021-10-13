@@ -2,7 +2,7 @@
 //  Difficulty+MinefieldAttributes.swift
 //  TCAminesweeper
 //
-//  Created by Igor Bidiniuc on 14/03/2021.
+//  Created by Rene Dena on 14/03/2021.
 //
 
 import Foundation

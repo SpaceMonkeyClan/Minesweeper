@@ -2,7 +2,7 @@
 //  Fonts.swift
 //  TCAminesweeper
 //
-//  Created by Igor Bidiniuc on 06/03/2021.
+//  Created by Rene Dena on 06/03/2021.
 //
 
 import SwiftUI

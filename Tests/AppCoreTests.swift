@@ -2,7 +2,7 @@
 //  AppCoreTests.swift
 //  AppCoreTests
 //
-//  Created by Igor Bidiniuc on 17/03/2021.
+//  Created by Rene Dena on 17/03/2021.
 //
 
 import XCTest

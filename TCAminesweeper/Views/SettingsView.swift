@@ -91,6 +91,7 @@ struct SettingsView_Previews: PreviewProvider {
                 environment: .preview
             )
         )
+        .preferredColorScheme(.dark)
     }
 }
 

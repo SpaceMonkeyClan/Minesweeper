@@ -2,7 +2,7 @@
 //  Shuffler.swift
 //  TCAminesweeper
 //
-//  Created by Igor Bidiniuc on 21/03/2021.
+//  Created by Rene Dena on 21/03/2021.
 //
 
 import Foundation

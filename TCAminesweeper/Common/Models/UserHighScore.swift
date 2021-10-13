@@ -2,7 +2,7 @@
 //  UserHighScore.swift
 //  TCAminesweeper
 //
-//  Created by Igor Bidiniuc on 11/03/2021.
+//  Created by Rene Dena on 11/03/2021.
 //
 
 import Foundation
