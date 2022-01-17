@@ -36,8 +36,6 @@
 		A590E2D725FFC0D300019BF4 /* MinefieldCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5CCC09125FE520E001E57FA /* MinefieldCore.framework */; };
 		A590E2F225FFC0E400019BF4 /* MinefieldCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A590E2F125FFC0DE00019BF4 /* MinefieldCoreTests.swift */; };
 		A590E3AC260FD2A600834E66 /* MainAppScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A590E36E260FD22C00834E66 /* MainAppScene.swift */; };
-		A590E4A7260FD5E800834E66 /* AppCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5CCBED325FE5149001E57FA /* AppCore.framework */; };
-		A590E4A8260FD5E800834E66 /* AppCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A5CCBED325FE5149001E57FA /* AppCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A590E4E4260FD61A00834E66 /* MainAppCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A590E1ED260FD08000834E66 /* MainAppCore.framework */; };
 		A590E4E5260FD61A00834E66 /* MainAppCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A590E1ED260FD08000834E66 /* MainAppCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A590E4E7260FD61B00834E66 /* AppView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5CCBF0125FE5155001E57FA /* AppView.framework */; };
@@ -139,6 +137,8 @@
 		A5E2820525FEBE78008F55DB /* LiveAppEnvirontment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CCBE6E25FD6E73001E57FA /* LiveAppEnvirontment.swift */; };
 		A5E2822425FEBEA3008F55DB /* LiveHighScoreService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5CCC20B25FE529B001E57FA /* LiveHighScoreService.framework */; };
 		A5E2822525FEBEA3008F55DB /* LiveSettingsService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5CCC2A725FE52BA001E57FA /* LiveSettingsService.framework */; };
+		DCEB25492718D24D009A812D /* AppCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5CCBED325FE5149001E57FA /* AppCore.framework */; };
+		DCEB254A2718D24D009A812D /* AppCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A5CCBED325FE5149001E57FA /* AppCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -572,17 +572,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		A590E4A9260FD5E800834E66 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				A590E4A8260FD5E800834E66 /* AppCore.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A590E4E6260FD61A00834E66 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -632,6 +621,17 @@
 			dstSubfolderSpec = 10;
 			files = (
 				A5CCC5B825FE6585001E57FA /* HighScoreService.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCEB254B2718D24D009A812D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DCEB254A2718D24D009A812D /* AppCore.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -788,7 +788,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A590E4A7260FD5E800834E66 /* AppCore.framework in Frameworks */,
+				DCEB25492718D24D009A812D /* AppCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1480,7 +1480,7 @@
 				A590E1E9260FD08000834E66 /* Sources */,
 				A590E1EA260FD08000834E66 /* Frameworks */,
 				A590E1EB260FD08000834E66 /* Resources */,
-				A590E4A9260FD5E800834E66 /* Embed Frameworks */,
+				DCEB254B2718D24D009A812D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -4615,7 +4615,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = md.rogy.TCAminesweeper;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SpaceMonkeyLabs.Sweeper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
@@ -4639,7 +4639,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = md.rogy.TCAminesweeper;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SpaceMonkeyLabs.Sweeper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
